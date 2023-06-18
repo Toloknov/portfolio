@@ -1,0 +1,146 @@
+/* stylelint-disable */
+.contact {
+  padding: 50px 0 150px 0;
+  background-image: url("../images/track.jpg");
+  background-image: image-set("../images/track.avif" type("image/avif"), "../images/track.webp" type("image/webp"), "../images/track.jpg" type("image/jpg"));
+  background-repeat: no-repeat;
+  padding: 50px 0 75px 0;
+}
+@media screen and (max-width: 840px) {
+  .contact {
+    background-image: none;
+    padding-top: 0;
+    padding-bottom: 50px;
+  }
+}
+@media (max-width: 480px) {
+  .contact {
+    padding-bottom: 20px;
+  }
+}
+.contact_title {
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  width: 883px;
+}
+@media (max-width: 480px) {
+  .contact_title {
+    margin-bottom: 20px !important;
+  }
+}
+.contact_container {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+@media (max-width: 960px) {
+  .contact_container {
+    flex-direction: column-reverse;
+  }
+}
+.contact_cart {
+  width: calc(50% - 25px);
+}
+@media (max-width: 960px) {
+  .contact_cart {
+    width: calc(100% - 0px);
+  }
+}
+.contact_cart-map {
+  width: 100%;
+  min-width: 290px;
+  min-height: 500px;
+  border: 1px solid black;
+}
+@media (max-width: 480px) {
+  .contact_cart-map {
+    min-height: auto;
+  }
+}
+.contact_about {
+  width: calc(50% - 0px);
+}
+@media (max-width: 768px) {
+  .contact_about {
+    width: calc(100% - 0px);
+  }
+}
+.contact_about-bottom .contact_about-tel {
+  display: inline-block;
+  margin-bottom: 0;
+}
+.contact_about-title {
+  font-family: "Oswald", sans-serif;
+  margin: 0 0 10px 0;
+  font-size: 36px;
+  line-height: 53px;
+}
+@media (max-width: 768px) {
+  .contact_about-title {
+    font-size: 20px;
+    line-height: 30px;
+  }
+}
+.contact_about-bottom .contact_about-street {
+  margin-bottom: 0;
+}
+.contact_about-box {
+  display: flex;
+  margin-bottom: 25px;
+}
+.contact_about-street {
+  display: block;
+  line-height: 25px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+@media (max-width: 768px) {
+  .contact_about-street {
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
+.contact_about-prev {
+  display: block;
+  margin-right: 30px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  color: var(--color-4);
+  margin-bottom: 20px;
+}
+@media (max-width: 768px) {
+  .contact_about-prev {
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
+.contact_about-tel {
+  display: block;
+  line-height: 30px;
+  margin-bottom: 20px;
+}
+@media (max-width: 768px) {
+  .contact_about-tel {
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
+.contact_about-vianor {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  color: var(--color-4);
+  margin-right: 115px;
+}
+@media (max-width: 768px) {
+  .contact_about-vianor {
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
+@media (max-width: 480px) {
+  .contact_about-vianor {
+    margin-right: 50px;
+  }
+}

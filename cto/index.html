@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="ukr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CTO</title>
+  <!-- <link rel="preload" href="fonts/MullerRegular.woff2" as="font" type="font/woff2" crossorigin> -->
+  <link rel="stylesheet" href="./css/style.min.css">
+  <script src="./js/main.min.js" defer></script>
+</head>
+<!-- picImg picDS-->
+
+<body class="body">
+  <header class="header" id="header">
+    <div class="wrapper">
+        <div class="header_top">
+            <div class="header_item">
+                <picture>
+                    <source type="image/avif" srcset="./images/logo.avif">
+                    <source type="image/webp" srcset="./images/logo.webp">
+                    <img src="./images/logo.png" alt="Image" class="header_logo-icon">
+                </picture>
+                <span class="header_logo-text">ОДЕСЬКИЙ ШИННИЙ ТЕРМІНАЛ</span>
+            </div>
+            <button class="burger_menu" id="burger_menu"><span class="burger_menu-line"></span><span
+                    class="burger_menu-line"></span><span class="burger_menu-line"></span></button>
+            <div class="header_item">
+                <address class="header_address">
+                    <a href="tel:+380679113300" class="header_address-tel">+38(067) 911 33 00</a>
+                    <span class="header_address-street">Київське Шосе, 12а, м. Одеса, Україна</span>
+                    <svg class="header_address-icon">
+                        <use xlink:href="./images/sprite.svg#--icons--point-map"></use>
+                    </svg>
+                </address>
+                <button class="header_btn btn" data-callback>Замовити дзвінок</button>
+            </div>
+        </div>
+        <hr class="header_line">
+        <nav class="header_nav">
+            <ul class="header_menu">
+                <li class="header_list"><a href="#" class="header_link">Головна</a></li>
+                <li class="header_list"><a href="#terminal" class="header_link">Про нас</a></li>
+                <li class="header_list"><a href="#services" class="header_link">Послуги</a></li>
+                <li class="header_list"><a href="#assortment" class="header_link">Партнери</a></li>
+                <li class="header_list"><a href="#reviews" class="header_link">Контакти</a></li>
+            </ul>
+        </nav>
+    </div>
+    <h1 class="hidden">Шиномонтаж зручно швидко безпечно</h1>
+    <picture>
+        <source media="(max-width: 480px)" type="image/avif" srcset="./images/main-page-min.avif" />
+        <source type="image/avif" srcset="./images/main-page-big.avif" />
+
+        <source media="(max-width: 480px)" type="image/webp" srcset="./images/main-page-min.webp" />
+        <source type="image/webp" srcset="./images/main-page-big.webp" />
+
+        <source media="(max-width: 480px)" type="image/webp" srcset="./images/main-page-min.jpg" />
+        <img src="./images/main-page-big.jpg" class="header_main-img" alt="CTO" />
+    </picture>
+    <div class="header_bottom">
+        <address class="header_bottom-box">
+            <div class="header_bottom-item">
+                <svg class="header_address-icon">
+                    <use xlink:href="./images/sprite.svg#--icons--point-map"></use>
+                </svg>
+                <a href="tel:+380679113300" class="header_bottom-tel">+38(067) 911 33 00</a>
+                <span class="header_bottom-street">Київське Шосе, 12а, м. Одеса, Україна</span>
+                <button class="header_bottom-btn btn">Замовити дзвінок</button>
+            </div>
+            <div class="header_bottom-item">
+                <span class="header_bottom-vianor">VIANOR</span>
+                <a href="tel:+380679113300" class="header_bottom-tel">+38(067) 911 33 00</a>
+                <span class="header_bottom-street">вул. Вернідуба, 78
+                    с. Усатово</span>
+            </div>
+            <div class="header_bottom-item">
+                <span class="header_bottom-vianor">VIANOR</span>
+                <a href="tel:+380679113300" class="header_bottom-tel">+38(067) 911 33 00</a>
+                <span class="header_bottom-street">вул. Ільфа і Петрова, 18а
+                    м. Одеса</span>
+            </div>
+        </address>
+    </div>
+</header>
+  <main class="main">
+    <section class="terminal" id="terminal">
+    <h2 class="terminal_title main-title">Вітаю в <span class="title-color">ОДЕСЬКОМУ ШИННОМУ ТЕРМІНАЛІ</span> </h2>
+    <div class="terminal_box">
+        <div class="swiper terminal-swiper">
+            <div class="swiper-wrapper terminal_container">
+                <div class="swiper-slide terminal_slide">
+                    <picture>
+                        <source media="(max-width: 480px)" type="image/avif" srcset="./images/terminal-min-1.avif" />
+                        <source type="image/avif" loading="lazy" srcset="./images/terminal-big-1.avif" />
+
+                        <source media="(max-width: 480px)" type="image/webp" srcset="./images/terminal-min-1.webp" />
+                        <source type="image/webp" loading="lazy" srcset="./images/terminal-big-1.webp" />
+
+                        <source media="(max-width: 480px)" type="image/webp" srcset="./images/terminal-min-1.jpg" />
+                        <img loading="lazy" src="./images/terminal-big-1.jpg" class="terminal_slide-img" alt="scooter" />
+                    </picture>
+                </div>
+                <div class="swiper-slide terminal_slide">
+                    <picture>
+                        <source media="(max-width: 480px)" type="image/avif" srcset="./images/terminal-min-1.avif" />
+                        <source type="image/avif" srcset="./images/terminal-big-1.avif" />
+
+                        <source media="(max-width: 480px)" type="image/webp" srcset="./images/terminal-min-1.webp" />
+                        <source type="image/webp" srcset="./images/terminal-big-1.webp" />
+
+                        <source media="(max-width: 480px)" type="image/webp" srcset="./images/terminal-min-1.jpg" />
+                        <img loading="lazy" src="./images/terminal-big-1.jpg" class="terminal_slide-img" alt="scooter" />
+                    </picture>
+                </div>
+
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+        <div class="terminal_desc">
+            <p class="terminal_text">Бажаєте купити якісні літні шини або зимові шини, а також легкосплавні диски на ваш
+                автомобіль?
+                <br><br>
+                Ми завжди раді допомогти підібрати саме те, що вам потрібно. Кваліфікована консультація наших фахівців
+                убереже вас від можливих помилок, заощадить час та гроші. <br><br>
+
+                В наявності завжди є достатній асортимент продукції у всіх популярних типорозмірах на легковий та
+                вантажний транспорт. <br><br>
+
+                Згідно зі зібраною статистикою, кожен другий продаж нашого магазину – це постійні клієнти, яким ми
+                завжди дуже раді і щодо яких проводимо максимально лояльну цінову політику!
+            </p>
+
+            <h2 class="terminal_address-title">Філії</h2>
+            <span class="terminal_address-prev">VIANOR</span>
+            <address class="terminal_address"> <span class="terminal_address-street">вул. Вернідуба, 78, с. Усатово,
+                    Одеська обл.</span><a href="tel:380949312170" class="terminal_address-tel">+38 (094) 931 21 70</a>
+            </address>
+            <span class="terminal_address-prev">VIANOR</span>
+            <address class="terminal_address"> <span class="terminal_address-street">вул. Ільфа і Петрова, 18а, м.
+                    Одеса</span><a href="tel:380949312170" class="terminal_address-tel">+38 (094) 931 21 70</a>
+            </address>
+        </div>
+    </div>
+</section> <section class="services" id="services">
+    <h2 class="services_title main-title" data-services-id>Наші <span class="title-color">ПОСЛУГИ</span> </h2>
+    <div class="wrapper " id="wrapServices">
+        <div class="services_grid">
+            <div class="services_item">
+                <h3 class="services_item-title">Шини та диски легкові</h3>
+                <svg class="services_item-icon">
+                    <use xlink:href="./images/sprite.svg#--icons--services-1"></use>
+                </svg>
+                <button class="services_item-btn " data-services-id="1"><svg class=" icon-btn">
+                        <use xlink:href="./images/sprite.svg#--icons--arrow"></use>
+                    </svg></button>
+            </div>
+            <div class="services_item">
+                <h3 class="services_item-title">Шини та диски TIR</h3>
+                <svg class="services_item-icon">
+                    <use xlink:href="./images/sprite.svg#--icons--services-2"></use>
+                </svg>
+                <button class="services_item-btn " data-services-id="2"><svg class=" icon-btn">
+                        <use xlink:href="./images/sprite.svg#--icons--arrow"></use>
+                    </svg></button>
+            </div>
+            <div class="services_item">
+                <h3 class="services_item-title">Шиномонтаж
+                    легковий</h3>
+                <picture>
+                    <source type="image/avif" srcset="./images/service-3.avif">
+                    <source type="image/webp" srcset="./images/service-3.webp">
+                    <img src="./images/service-3.png" loading="lazy"
+                        alt="Image" class="services_item-icon">
+                </picture>
+                </svg>
+                <button class="services_item-btn " data-services-id="3"><svg class=" icon-btn">
+                        <use xlink:href="./images/sprite.svg#--icons--arrow"></use>
+                    </svg></button>
+            </div>
+            <div class="services_item">
+                <h3 class="services_item-title">Шиномонтаж TIR</h3>
+                <svg class="services_item-icon">
+                    <use xlink:href="./images/sprite.svg#--icons--services-4"></use>
+                </svg>
+                <button class="services_item-btn " data-services-id="4"><svg class=" icon-btn">
+                        <use xlink:href="./images/sprite.svg#--icons--arrow"></use>
+                    </svg></button>
+            </div>
+            <div class="services_item">
+                <h3 class="services_item-title">Схід-розва легковий</h3>
+                <svg class="services_item-icon">
+                    <use xlink:href="./images/sprite.svg#--icons--services-5"></use>
+                </svg>
+                <button class="services_item-btn " data-services-id="5"><svg class=" icon-btn">
+                        <use xlink:href="./images/sprite.svg#--icons--arrow"></use>
+                    </svg></button>
+            </div>
+            <div class="services_item">
+                <h3 class="services_item-title">Схід-розвал TIR</h3>
+                <svg class="services_item-icon">
+                    <use xlink:href="./images/sprite.svg#--icons--services-6"></use>
+                </svg>
+                <button class="services_item-btn " data-services-id="6"><svg class=" icon-btn">
+                        <use xlink:href="./images/sprite.svg#--icons--arrow"></use>
+                    </svg></button>
+            </div>
+            <div class="services_item">
+                <h3 class="services_item-title">Заправка
+                    кондиціонерів</h3>
+                <svg class="services_item-icon">
+                    <use xlink:href="./images/sprite.svg#--icons--services-7"></use>
+                </svg>
+                <button class="services_item-btn " data-services-id="7"><svg class=" icon-btn">
+                        <use xlink:href="./images/sprite.svg#--icons--arrow"></use>
+                    </svg></button>
+            </div>
+            <div class="services_item">
+                <h3 class="services_item-title">Заміна мастил TIR</h3>
+                <svg class="services_item-icon">
+                    <use xlink:href="./images/sprite.svg#--icons--services-8"></use>
+                </svg>
+                <button class="services_item-btn " data-services-id="8"><svg class=" icon-btn">
+                        <use xlink:href="./images/sprite.svg#--icons--arrow"></use>
+                    </svg></button>
+            </div>
+        </div>
+    </div>
+</section>
+    <section class="why" id="why">
+    <div class="why_title main-title">Чому <span class="title-color"> САМЕ МИ</span></div>
+    <div class="wrapper">
+
+        <div class="why_box">
+            <div class="why_item">
+                <picture>
+                    <source type="image/avif" srcset="./images/why-1.avif">
+                    <source type="image/webp" srcset="./images/why-1.webp"><img src="./images/why-1.jpg" alt="Image"
+                        loading="lazy" class="class">
+                </picture><span class="why_text">Професійний персонал</span>
+            </div>
+            <div class="why_item">
+                <picture>
+                    <source type="image/avif" srcset="./images/why-2.avif">
+                    <source type="image/webp" srcset="./images/why-2.webp"><img src="./images/why-2.jpg" alt="Image"
+                        loading="lazy" class="class">
+                </picture><span class="why_text">Якісні розхідники</span>
+            </div>
+            <div class="why_item">
+                <picture>
+                    <source type="image/avif" srcset="./images/why-3.avif">
+                    <source type="image/webp" srcset="./images/why-3.webp"><img src="./images/why-3.jpg" alt="Image"
+                        loading="lazy" class="class">
+                </picture><span class="why_text">Сертифіковане обладнання</span>
+            </div>
+            <div class="why_item">
+                <picture>
+                    <source type="image/avif" srcset="./images/why-4.avif">
+                    <source type="image/webp" srcset="./images/why-4.webp"><img src="./images/why-4.jpg" alt="Image"
+                        loading="lazy" class="class">
+                </picture><span class="why_text">Зона очікування для клієнтів</span>
+            </div>
+        </div>
+    </div>
+</section> <section class="assortment" id="assortment" >
+    <h2 class="assortment_title main-title">Наш <span class="title-color">АСОРТИМЕНТ</span></h2>
+    <div class="wrapper">
+        <div class="assortment_box">
+
+        </div>
+        <div class="assortment_pagination">
+            <button class="assortment_pagination-btn" id="btn-prev">
+                <svg class="assortment_pagination-prev">
+                    <use xlink:href="./images/sprite.svg#--icons--arrow-right"></use>
+                </svg></button>
+            <button class="assortment_pagination-btn" id="btn-next"><svg class="assortment_pagination-next">
+                    <use xlink:href="./images/sprite.svg#--icons--arrow-right"></use>
+                </svg></button>
+        </div>
+    </div>
+</section>
+    <section class="reviews" id="reviews">
+    <h2 class="reviews_title main-title">Залишити <span class="title-color">ВІДГУК</span> </h2>
+    <div class="wrapper">
+        <form action="/" method="post" id="form" class="reviews_form">
+            <div class="reviews_form-top">
+                <div class="reviews_form-field">
+                    <div>
+                        <label for="name" class="reviews_form-label">Ім’я</label>
+                        <input type="text" id="name" placeholder="Іван" name="name" class="reviews_form-input">
+                    </div>
+                    <div>
+                        <label for="tel" class="reviews_form-label">Телефон</label>
+                        <input type="tel" id="tel" placeholder="+38 (___) ___ __ __" name="tel"
+                            class="reviews_form-input input-tel">
+                    </div>
+                    <div>
+                        <label for="email" class="reviews_form-label">Електронна пошта</label>
+                        <input type="email" id="email" placeholder="ivan@xxxx.xxx" name="email"
+                            class="reviews_form-input">
+                    </div>
+                    <div class="select-wrap">
+                        <label for="select" class="reviews_form-label">Філія</label>
+                        <select name="filiy" id="select" class="reviews_form-select">
+                            <option value="" selected disabled>Вибери філію</option>
+                            <option value="Shosse">Київське Шосе, 12а, м. Одеса</option>
+                            <option value="Usatovo">вул. Вернідуба, 78, с. Усатово</option>
+                            <option value="Petrova">вул. Ільфа і Петрова, 18а</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="reviews_form-radios">
+                    <div id="radioGroup">
+                        <h3 class="reviews_form-title">Тема звернення?</h3>
+                        <input type="radio" id="gratitude" name="radio" value="gratitude" class="reviews_form-toggle">
+                        <label for="gratitude" class="reviews_form-text">Подяка</label><br>
+                        <input type="radio" id="claim" name="radio" value="claim" class="reviews_form-toggle">
+                        <label for="claim" class="reviews_form-text">Претензія</label><br>
+                        <input type="radio" id="consultation" name="radio" value="consultation"
+                            class="reviews_form-toggle">
+                        <label for="consultation" class="reviews_form-text">Консультація</label><br>
+                        <input type="radio" id="idea" name="radio" value="idea" class="reviews_form-toggle">
+                        <label for="idea" class="reviews_form-text">Запропонувати ідею</label>
+                    </div>
+                </div>
+            </div>
+            <div class="reviews_form-wrap">
+                <span class="reviews_form-label">Відгук</span>
+                <div class="reviews_form-right">
+                    <input type="checkbox" id="personal-data" class="reviews_form-check">
+                    <label for="personal-data" class="reviews_form-desc">Даю згоду на обробку моїх <a
+                            href="https://zakon.rada.gov.ua/laws/show/2297-17#Text"
+                            class="reviews_form-zakon">персональних даних</a> </label>
+                </div>
+
+            </div>
+            <div>
+                <textarea name="reviews" id="textarea" placeholder="Тут розміщується ваш відгук..." rows="6"
+                    class="reviews_form-textarea"></textarea>
+            </div>
+            <button type="submit" name="send-reviews" class="reviews_form-btn btn">Відправити</button>
+        </form>
+    </div>
+
+</section><section class="contact" id="contact">
+    <h2 class="contact_title main-title">Наші <span class="title-color">КОНТАКТИ</span> </h2>
+    <div class="wrapper">
+        <div class="contact_container">
+            <div class="contact_cart">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d971.1507423788465!2d30.666602286582872!3d46.491696317381084!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40c62e0c28a14213%3A0x807d123aa74fe9eb!2z0JrQuNC10LLRgdC60L7QtSDRiC4sIDEy0LAsINCe0LTQtdGB0YHQsCwg0J7QtNC10YHRgdC60LDRjyDQvtCx0LvQsNGB0YLRjCwgNjUwMDA!5e0!3m2!1sru!2sua!4v1686492517064!5m2!1sru!2sua"
+                    class="contact_cart-map" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            <div class="contact_about">
+                <h3 class="contact_about-title">ОДЕСЬКИЙ ШИННИЙ ТЕРМІНАЛ</h3>
+                <address class="contact_about-address">
+                    <span class="contact_about-street">Київське Шосе, 12а, м. Одеса, Україна</span>
+                    <div class="contact_about-box">
+                        <div class="contact_about-left">
+                            <span class="contact_about-prev">Шини вантажні</span>
+                            <span class="contact_about-prev">Шини легкові</span>
+                            <span class="contact_about-prev">Шиномонтаж</span>
+                            <span class="contact_about-prev">Схід-розвал</span>
+                            <span class="contact_about-prev">Заміна мастил</span>
+
+                        </div>
+                        <div class="contact_about-right">
+                            <a href="tel:+380739113300" class="contact_about-tel">+38 (073) 911 33 00</a>
+                            <a href="tel:+380663463300" class="contact_about-tel">+38 (066) 346 33 00</a>
+                            <a href="tel:+380989113300" class="contact_about-tel">+38 (098) 911 33 00</a>
+                            <a href="tel:+380939113300" class="contact_about-tel">+38 (093) 911 33 00</a>
+                            <a href="tel:+380672717350" class="contact_about-tel">+38 (067) 271 73 50</a>
+                        </div>
+                    </div>
+                    <div class="contact_about-bottom">
+                        <h3 class="contact_about-title">Філії</h3>
+                        <span class="contact_about-vianor">VIANOR</span>
+                        <a href="tel:+380949312170" class="contact_about-tel">+38 (094) 931 21 70</a>
+                        <span class="contact_about-street">вул. Вернідуба, 78, с. Усатово, Одеська обл.</span>
+                        <span class="contact_about-vianor">VIANOR</span>
+                        <a href="tel:+380949312170" class="contact_about-tel">+38 (094) 931 21 70</a>
+                        <span class="contact_about-street">вул. Ільфа і Петрова, 18а, м. Одеса</span>
+                    </div>
+                </address>
+            </div>
+        </div>
+    </div>
+</section>
+    <section class="modal hidden" id="modal">
+    <div class="modal_box">
+        <div class="modal_cross"></div>
+        <form action="/" class="modal_form" id="form-callback">
+            <div class="modal_form-wrap">
+                <label for="name-callback" class="modal_form-label">Ім’я</label>
+                <input type="text" placeholder="Іван" id="name-callback" name="name-callback" class="modal_form-input">
+            </div>
+            <div class="modal_form-wrap">
+                <label for="tel-callback" class="modal_form-label">Телефон</label>
+                <input type="tel" placeholder="+38 (___) ___ __ __" id="tel-callback" name="tel-callback"
+                    class="modal_form-input">
+            </div>
+            <label for="select-callback" class="modal_form-label">Філія</label>
+
+            <div class="modal_form-wrap select-anchor">
+                <select name="select" id="select-callback" class="modal_form-select">
+                    <option value="" disabled selected>Обрати філію</option>
+                    <option value="Шини вантажні">Шини вантажні</option>
+                    <option value="Шини легкові">Шини легкові</option>
+                    <option value="Шиномонтаж">Шиномонтаж</option>
+                    <option value="Схід-розвал">Схід-розвал</option>
+                    <option value="Заміна мастил">Заміна мастил</option>
+                    <option value="Vianor Усатово">Vianor Усатово</option>
+                    <option value="Vianor Таїрова">Vianor Таїрова</option>
+                </select>
+            </div>
+            <button class="modal_form-btn btn">ЗАМОВИТИ</button>
+        </form>
+    </div>
+</section>
+  </main>
+  <footer class="footer" id="footer">
+
+   <div class="wrapper">
+      <div class="footer_wrap">
+         <div class="footer_nav">
+            <a href="#" class="footer_logo">
+               <picture>
+                  <source type="image/avif" srcset="./images/logo.avif">
+                  <source type="image/webp" srcset="./images/logo.webp">
+                  <img src="./images/logo.png" alt="Image" class="footer_logo-icon">
+               </picture>
+               <h2 class="footer_logo-title">ОДЕСЬКИЙ ШИННИЙ ТЕРМІНАЛ</h2>
+            </a>
+            <hr class="footer_line">
+            <div class="footer_box">
+               <ul class="footer_menu">
+                  <li class="footer_list"><a href="#" class="footer_link">Головна</a></li>
+                  <li class="footer_list"><a href="#" class="footer_link">Про нас</a></li>
+                  <li class="footer_list"><a href="#" class="footer_link">Послуги</a></li>
+                  <li class="footer_list"><a href="#" class="footer_link">Партнери</a></li>
+                  <li class="footer_list"><a href="#" class="footer_link">Контакти</a></li>
+               </ul>
+            </div>
+         </div>
+         <address class="footer_address">
+            <span class="footer_address-street">
+               <svg class="footer_address-icon">
+                  <use xlink:href="./images/sprite.svg#--icons--point"></use>
+               </svg>Київське Шосе, 12а, м. Одеса, Україна</span>
+            <a href="#" class="footer_address-tel"><svg class="footer_address-icon">
+                  <use xlink:href="./images/sprite.svg#--icons--tel"></use>
+               </svg>+38(067) 911 33 00</a>
+            <a href="mailto:tiresterminal@ukr.net" class="footer_address-email"><svg class="footer_address-icon">
+                  <use xlink:href="./images/sprite.svg#--icons--email"></use>
+               </svg>tiresterminal@ukr.net</a>
+         </address>
+         <div class="footer_social">
+            <a href="#" class="footer_social-facebook"><svg class="footer_address-icon">
+                  <use xlink:href="./images/sprite.svg#--icons--facebook"></use>
+               </svg>Facebook</a>
+            <a href="#" class="footer_social-instagram"><svg class="footer_address-icon">
+                  <use xlink:href="./images/sprite.svg#--icons--instagram"></use>
+               </svg>Instagram</a>
+            <span class="footer_social-rules">© Всі права захищені, 2022 Розроблено Anyway Any</span>
+         </div>
+      </div>
+   </div>
+</footer>
+</body>
+
+</html>

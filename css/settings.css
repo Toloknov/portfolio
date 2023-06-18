@@ -1,0 +1,169 @@
+/* stylelint-disable */
+:root {
+  --color-1: #171718;
+  --color-2: #FFFFFF;
+  --color-3: #5C62EC;
+  --gap: 30px;
+}
+
+.hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+@keyframes showBlock {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.input-reset {
+  -webkit-appearance: none;
+  appearance: none;
+  border: none;
+  border-radius: 0;
+  background-color: #fff;
+}
+.input-reset::-webkit-search-decoration, .input-reset::-webkit-search-cancel-button, .input-reset::-webkit-search-results-button, .input-reset::-webkit-search-results-decoration {
+  display: none;
+}
+
+.disable-scroll {
+  position: relative;
+  overflow: hidden;
+  height: 100vh;
+}
+
+.modal {
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.5019607843);
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+.modal_box {
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 15px 50px 25px 50px;
+  position: relative;
+}
+.modal_cross {
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 30px;
+  height: 30px;
+  transform: rotate(-45deg);
+}
+.modal_cross::after, .modal_cross::before {
+  content: "";
+  display: block;
+  height: 4.5px;
+  width: 15px;
+  background-color: var(--color-4);
+}
+.modal_cross::before {
+  transform: rotate(90deg) translateX(4.5px);
+}
+
+.wrapper {
+  max-width: calc(1170px + var(--gap) * 2);
+  margin: 0 auto;
+  padding: 0 var(--gap);
+}
+@media (max-width: 480px) {
+  .wrapper {
+    padding: 0 calc(var(--gap) / 2);
+  }
+}
+
+/* stylelint-disable */
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+.body {
+  box-sizing: border-box;
+  color: var(--color-1);
+  font-family: SourceSansPro, sans-serif;
+  font-style: normal;
+  background-color: #202020;
+  color: var(--color-2);
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.main {
+  flex: 1 1 auto;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  height: auto;
+  border: 0;
+  padding: 0;
+  outline: none;
+}
+
+#bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+canvas {
+  display: block;
+  vertical-align: bottom;
+}

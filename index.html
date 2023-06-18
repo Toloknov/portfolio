@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="ukr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CTO</title>
+    <!-- <link rel="preload" href="fonts/MullerRegular.woff2" as="font" type="font/woff2" crossorigin> -->
+    <link rel="stylesheet" href="./css/style.min.css">
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js" defer></script>
+    <script src="./js/main.min.js" defer></script>
+    <!-- picImg picDS-->
+
+<body class="body">
+    <div id="bg"></div>
+    <header class="header" id="header">
+        <div class="header_ellipse-1"></div>
+        <div class="header_ellipse-2"></div>
+        <div class="wrapper">
+            <nav class="header_nav">
+                <p class="header_logo">PORTFOLIO</p>
+                <ul class="header_menu">
+                    <li class="header_item"><a href="#projects" class="header_link">Projects</a></li>
+                    <li class="header_item"><a href="#skills" class="header_link">Skills</a></li>
+                </ul>
+            </nav>
+            <div class="header_contents">
+                <div class="header_content">
+                    <h1 class="header_title"></h1>
+                </div>
+                <div class="header_content">
+                    <p class="header_text">Добро пожаловать на сайт моего портфолио, где я демонстрирую свой опыт
+                        веб-разработчика. Стремясь создавать захватывающий онлайн-опыт, я специализируюсь на разработке
+                        инновационных веб-решений, которые привлекают пользователей и стимулируют рост бизнеса.</p>
+                </div>
+                <div class="header_content">
+                    <picture>
+                        <source type="image/avif" srcset="./images/cosmonaut-earth.png">
+                        <source type="image/webp" srcset="./images/cosmonaut-earth.png">
+                        <img src="./images/cosmonaut-earth.png" alt="cosmonaut" class="header_images">
+                    </picture>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <section class="project" id="projects">
+            <h2 class="project_title">Projects
+            </h2>
+            <div class="project_ellipse-2"></div>
+            <div class="wrapper">
+                <div class="project_container">
+                    <div class="project_item"><a href="./cto" class="project_link">
+                            <picture>
+                                <source type="image/avif" srcset="./images/CTO.avif">
+                                <source type="image/webp" srcset="./images/CTO.webp"><img src="./images/CTO.jpg"
+                                    loading="lazy" alt="CTO" class="project_image">
+                            </picture>
+                            <p class="project_desc">Landing Page CTO</p>
+                        </a></div>
+                    <div class="project_item"><a href="./scooter" class="project_link">
+                            <picture>
+                                <source type="image/avif" srcset="./images/scooter.avif">
+                                <source type="image/webp" srcset="./images/scooter.webp"><img src="./images/scooter.jpg"
+                                    loading="lazy" alt="Scooter" class="project_image">
+                            </picture>
+                            <p class="project_desc">Landing Page Scooter</p>
+                        </a></div>
+                        <div class="project_item"><a href="./veravla" class="project_link">
+                            <picture>
+                                <source type="image/avif" srcset="./images/vreavla.avif">
+                                <source type="image/webp" srcset="./images/vreavla.webp"><img src="./images/vreavla.jpg"
+                                    loading="lazy" alt="Veravla-edu" class="project_image">
+                            </picture>
+                            <p class="project_desc">Landing Page VeraVla</p>
+                        </a></div>
+                </div>
+            </div>
+        </section>
+        <section class="skill" id="skills">
+            <div class="wrapper">
+                <h2 class="skill_title">Skills <svg class="skill_icon-title">
+                        <use xlink:href="./images/sprite.svg#--star"></use>
+                    </svg></h2>
+                <div class="skill_box swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide skill_item"><span class="skill_item-text">HTML</span> <svg
+                                class="skill_icon">
+                                <use xlink:href="./images/sprite.svg#--icons--html"></use>
+                            </svg></div>
+                        <div class="swiper-slide skill_item"><span class="skill_item-text">CSS</span> <svg
+                                class="skill_icon">
+                                <use xlink:href="./images/sprite.svg#--icons--css"></use>
+                            </svg></div>
+                        <div class="swiper-slide skill_item"><span class="skill_item-text">SCSS</span>
+                            <svg class="skill_icon">
+                                <use xlink:href="./images/sprite.svg#--icons--scss"></use>
+                            </svg>
+                        </div>
+                        <div class="swiper-slide skill_item"><span class="skill_item-text">Flex</span> <svg
+                                class="skill_icon">
+                                <use xlink:href="./images/sprite.svg#--icons--flex"></use>
+                            </svg></div>
+                        <div class="swiper-slide skill_item"><span class="skill_item-text">Grid</span><svg
+                                class="skill_icon">
+                                <use xlink:href="./images/sprite.svg#--icons--grid"></use>
+                            </svg> </div>
+                        <div class="swiper-slide skill_item"><span class="skill_item-text">JavaScript</span><svg
+                                class="skill_icon">
+                                <use xlink:href="./images/sprite.svg#--icons--javascript"></use>
+                            </svg></div>
+                        <div class="swiper-slide skill_item"><span class="skill_item-text">Gulp</span> <svg
+                                class="skill_icon">
+                                <use xlink:href="./images/sprite.svg#--icons--gulp"></use>
+                            </svg></div>
+                        <div class="swiper-slide skill_item"><span class="skill_item-text">Webpack</span> <svg
+                                class="skill_icon">
+                                <use xlink:href="./images/sprite.svg#--icons--webpack"></use>
+                            </svg></div>
+                        <div class="swiper-slide skill_item"><span class="skill_item-text">Git</span> <svg
+                                class="skill_icon">
+                                <use xlink:href="./images/sprite.svg#--icons--git"></use>
+                            </svg></div>
+                        <div class="swiper-slide skill_item"><span class="skill_item-text">NPM</span> <svg
+                                class="skill_icon">
+                                <use xlink:href="./images/sprite.svg#--icons--npm"></use>
+                            </svg></div>
+                        <div class="swiper-slide skill_item"><span class="skill_item-text">Bootstrap</span><svg
+                                class="skill_icon">
+                                <use xlink:href="./images/sprite.svg#--icons--bootstrap"></use>
+                            </svg> </div>
+                        <div class="swiper-slide skill_item"><span class="skill_item-text">React</span> <svg
+                                class="skill_icon">
+                                <use xlink:href="./images/sprite.svg#--icons--react"></use>
+                            </svg></div>
+                        <div class="swiper-slide skill_item"><span class="skill_item-text">Redux</span> <svg
+                                class="skill_icon">
+                                <use xlink:href="./images/sprite.svg#--icons--redux"></use>
+                            </svg></div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+        <section class="modal hidden" id="modal">
+            <div class="modal_box">
+                <div class="modal_cross"></div>
+
+            </div>
+        </section>
+    </main>
+
+    </head>
+</body>
+
+</html>

@@ -52,8 +52,8 @@
 }
 .project_container {
   z-index: 110;
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   gap: 0 30px;
 }
 @media screen and (max-width: 1115px) {

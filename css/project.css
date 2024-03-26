@@ -10,7 +10,11 @@
   left: 200px;
   width: 450px;
   height: 450px;
-  background: linear-gradient(109.6deg, rgb(72, 200, 160) 11.2%, rgb(32, 40, 48) 91.3%);
+  background: linear-gradient(
+    109.6deg,
+    rgb(72, 200, 160) 11.2%,
+    rgb(32, 40, 48) 91.3%
+  );
   opacity: 0.6;
   filter: blur(140px);
   transform: rotate(-90deg);
@@ -49,6 +53,7 @@
 .project_container {
   z-index: 110;
   display: flex;
+  flex-wrap: wrap;
   gap: 0 30px;
 }
 @media screen and (max-width: 1115px) {
@@ -63,6 +68,7 @@
   }
 }
 .project_item {
+  max-width: 374px;
   flex-shrink: 0.3;
   z-index: 10;
 }
